@@ -19,4 +19,9 @@ public class SomeTests {
         void testFailedDisabled() {
             assertTrue(false);
         }
+
+        @Test
+        void testSuccess2() {
+            assertTrue(true);
+        }
 }
